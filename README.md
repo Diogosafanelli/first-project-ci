@@ -37,18 +37,18 @@
 ### Scope
 
 - For the Safanelli Photographer website I have planned the following features.
-+ Use images and text for more varied content.
-+ Use of short texts and longer texts, so the reading doesn't get too tiring.
-+ Use technologies and tools that improve site development and performance.
+  - Use images and text for more varied content.
+  - Use of short texts and longer texts, so the reading doesn't get too tiring.
+  - Use technologies and tools that improve site development and performance.
 
 ### Structure
 
 - For the Safanelli Photographer website I planned to separate the site into five pages.
-+ The home page, which will be the site's introduction page, will contain a little about me, who I am, how I started my career and what I expect from my clients
-+ The second page (About me) will be about my self .
-+ The third page talks about the investment itself, how it works and the values.
-+ The fourth page shows my portfolio so my clients can see about my job so far.
-+ The last page is made for the customer to be able to contact me, it has a short form which will make the interaction between the service provider and the customer easier.
+  - The home page, which will be the site's introduction page, will contain a little about me, who I am, how I started my career and what I expect from my clients
+  - The second page (About me) will be about my self .
+  - The third page talks about the investment itself, how it works and the values.
+  - The fourth page shows my portfolio so my clients can see about my job so far.
+  - The last page is made for the customer to be able to contact me, it has a short form which will make the interaction between the service provider and the customer easier.
 
 
 ### Surface
@@ -64,18 +64,24 @@
 #### Typography
 
 - The font were selected from Google Fonts.
-+ The font chosen was Roboto 
+  - The font chosen was Roboto 
 
 #### Imagery
 
 - The images selected for the website are intended to complement and assist the content. Each image selected was designed to match the section it was added to.
-+ About section image: to create an initial visual impact.
-+ All images contained in the portfolio page are my own, photographed and edited by myself.
-+ The image on the homepage (Home) is also my own, the image which was photographed in the  wicklow mountains, the model that appears is called Thais Oliveira Safanelli.
+  - About section image: to create an initial visual impact.
+  - All images contained in the portfolio page are my own, photographed and edited by myself.
+  - The image on the homepage (Home) is also my own, the image which was photographed in the  wicklow mountains, the model that appears is called Thais Oliveira Safanelli.
 
 ## Features
 <hr>
 
+### Existing Features
+
+- Banner 
+  - Present on all pages (Home/About me/Investment/Portfolio/Contact) is intended to create a style and identity for the page. The elements in the image refer to the title and theme of the site.
+
+<img src="img/menu.png" alt="">
 
 
 
