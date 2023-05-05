@@ -98,8 +98,59 @@
 
 ### Home page
 
-- About Section
-  - This section was created with the intention of introducing the user to the website and explaining what information he/she will have access to.
+- This section was created with the intention of introducing the user to the website and explaining what information he/she will have access to.
+- Also talk about me, some curiosities and where I'm based
 
   <img src="img/home pagehome.png" alt="">
 
+
+
+
+### About me  
+
+- This section will definitely talk a lot more about the person involved behind all the work, who he is and what motivates him to do this work.
+
+<img src="img/about me.png" alt="">
+
+### Investment
+
+- This section details by topics the values that can be invested and what will be included in the work
+
+<img src="img/investment.png" alt="">
+
+### Portfolio
+
+- This section was specially developed to show the author's work with images in large sizes to facilitate the user's visualization.
+
+
+<img src="img/portfolio.png" alt="">
+
+
+### Contact 
+
+- This contact section was developed to open a space of communication between both parties, a simple and very interactive form
+
+<img src="img/contactme.png" alt="">
+
+### Features Left to Implement
+
+- For the future, leave open the possibility of posting videos of works carried out in the form of reals, which makes the page much more attractive
+
+## Testing
+<hr>
+- I ran the tests on multiple devices and different browsers, in order to cover the widest possible range of screen sizes and models.
+
+### Navegation and Devices
+
+- Browsers
+  - Chrome
+  - Firefox
+  - Safari
+  - Edge
+
+- Devices  
+  - Apple: Iphone SE, Iphone 13 Pro Max, Iphone 8, Iphone XR, Iphone 12 Pro, Ipad Air, Ipad Mini.
+  - Samsung: Galaxy S8+, Galaxy S20 Ultra, Galaxy A51/71, Galaxy Tab S4, Galaxy Note II.
+  - Motorola: Moto G4.
+  - LG: Optimus L70, Nexus 4, Nexus 10.
+  - Google: Pixel 5, Pixel 3 XL.
