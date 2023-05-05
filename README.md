@@ -154,3 +154,62 @@
   - Motorola: Moto G4.
   - LG: Optimus L70, Nexus 4, Nexus 10.
   - Google: Pixel 5, Pixel 3 XL.
+
+## Deployment
+<hr>
+
+- To create this project I used GitHub and GitPod.
+- I used the Code Institute Gitpod Full Template, clicking on the "Use this template" button. From there I created the repository on Github with my username.
+- These commands were used for version control during project
+  - git status - to check the status of the files to be commited.
+  - git add filename - to add files before committing
+  - git commit -m "message" - to commit changes to the local repository
+  - git push - to push all committed changes to the GitHub repository
+
+### Deployment
+
+- To deploy the site to Github pages follow this steps:
+
+1. In the GitHub repository, select the Settings options.
+2. Scroll down until you find "GitHub Pages" section.
+3. Select the option "Check it out here", will gona send you to the next page.
+4. Choose "Main" for the branch in the drop down box.
+5. Choose "Root" for the directory in the next drop down box.
+6. Then click "Save".
+
+### Fork 
+
+
+- Forks let you make changes to a project without affecting the original repository. Follow this steps:
+
+1. Go to the repository page, can be accessed [here](https://github.com/Diogosafanelli/first-project-ci)
+2. On top right, you select the Fork option and proceed.
+3. A duplicate will be created inside your repository.
+
+## Technologies and tools
+<hr>
+
+- DevTools - to assist in the development of the project.
+- Gitpod - to create/edit the code of the project.
+- Github - to create repository, hosting files and deployment of the website.
+- Font Awesome - Used for the icons used in the footer.
+- Favicon.io - Used to implement the favicon on the website.
+- Canva - Used to create the Favicon, Banner, Hands Rankings and Bets and Positions images.
+- Coolors - Used to choice of colors and for the palette used in the README.
+- Google Fonts - Used for font selection.
+- Balsamiq - Used to creat the wireframes.
+- TinyPNG - Used to reduce the size of images and photos.
+
+## Credits
+<hr>
+
+### Media
+- The photos used for Home page and the another one used at How to Play page was taken by myself
+- The photos used for History page was taken by myself
+- The image used for README.md was taken by myself
+
+## Acknowledgements
+
+- Code Institute for all the support and the team always ready to help.
+- My wife and my friends for motivating me to achieve my best.
+- Everyone in the Slack community for tips and opinions.
