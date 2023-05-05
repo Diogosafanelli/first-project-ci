@@ -81,7 +81,25 @@
 - Banner 
   - Present on all pages (Home/About me/Investment/Portfolio/Contact) is intended to create a style and identity for the page. The elements in the image refer to the title and theme of the site.
 
+- Navigation Bar
+  - Present on all pages to facilitate navigation between them. The font is the same used throughout the website, I tried to keep the style and colors the same as the website.
+  - I added a hover effect on the navigation options to make them stand out more when selecting them.
+  - Present on all pages as well, has icons to direct users to social network pages. The links open on a new page. It is intended to create a connection with the users.
+
 <img src="img/menu.png" alt="">
 
+<img src="img/menu2.png" alt="">
 
+
+
+- Footer
+  - Present on all pages as well.
+  
+
+### Home page
+
+- About Section
+  - This section was created with the intention of introducing the user to the website and explaining what information he/she will have access to.
+
+  <img src="img/home pagehome.png" alt="">
 
