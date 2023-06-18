@@ -1,68 +1,58 @@
 /* Geral */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 } 
-
-
-
 *{
     font-family: "Roboto";
 }
-
-/* Menu */
-
-.container {
-    max-width: auto;
-    margin: 0 auto;
+#header{
+    background-color: #552020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+#header img{
+    width: 150px;
+}
+#mobile{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+  }
+#navbar{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header {
-    background-color: #552020;
-    width: 100%;
-    padding: 25px;
-    margin-top: -10px;
-
-}
-
-.logo,.socials {
-    width: 100%;
-    padding-left: 350px;
-}
-
-.logo img {
-    width: 150px;
-}
-.menu {
-    width: 100%;
-}
-
-.menu nav a {
-    color: #ffffff;
-    text-decoration: none;
-    padding-right: 70px;
-    font-size: 18px;
+#navbar li{
+    list-style: none;
+    padding: 0px 20px;
     position: relative;
-    max-width: 70px;
 }
-
-.menu nav a::after {
-    content: " ";
-    width: 0px;
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.3s;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 40%;
     height: 4px;
     background-image: linear-gradient(45deg, rgb(151, 100, 23), #cbe00b);
     position: absolute;
-    top: 30px;
-    left: 0px;
-    transition: width 0.5s;
-}
-.menu nav a:hover::after  {
-    width: 20px;
+    bottom: -4px;
+    left: 20px;
+    transition: ease-in 0.5s;
 }
 .socials button {
     width: 45px;
@@ -73,295 +63,530 @@ header {
     border-radius: 8px;
     cursor: pointer;
     position: static;
-    
 }
-
-.socials button i{
+.socials button .fa-facebook{
+    font-size: 25px;
+    color: rgba(0, 0, 255, 0.665);
+}
+.socials button .fa-instagram{
     font-size: 25px;
 }
-/* Text */
+.socials button .fa-youtube{
+    font-size: 25px;
+}
+.socials-responsive button {
+    width: 45px;
+    height: 40px;
+    background-image: linear-gradient(45deg, rgb(151, 100, 23), #cbe00b);
+    border: none;
+    margin-right: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: static;
+    display: none;
+}
 
-
-.main {
-    
-    background-image: url(../img/DSC_0382-01poster.jpeg);
+.socials-responsive button i{
+    font-size: 25px;
+}
+#main-container{
+    background-image: url(/img/DSC_0382-01poster.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
-    width: auto;
-    height: 1200px;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 20px;
 }
-
-.text h2 {
+#main-container .main-container-list{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#main-container .main-container-list h2{
     color: #084253;
-    width: 600px;
     padding: 2em;
-    font-size: 1.4em;
-    border-radius: 0.5em;
-    list-style: none;
+    font-size: 18px;
     text-align: left;
-    padding-top: 250px;
-    margin-left: 1750px;
-       
 }
-
-.text h3 {
+#main-container .main-container-list h3{
     color: #084253;
-    width: 500px;
-    padding: 1em;
-    font-size: 1.4em;
-    border-radius: 0.6em;
-    list-style: none;
-    text-align: left;
-    padding-top: 100px;
-    margin-left: 150px;
-}    
-
-.text h4 {
-    color: #f1e5d3;
-    width: 700px;
-    padding: 3em;
-    font-size: 1.3em;
-    border-radius: 0.6em;
-    list-style: none;
-    text-align: left;
-    padding-top: 150px;
-    margin-left: 1750px;
-}   
-/* About me */
-.About {
-    color: #552020;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #f7d0a5;
-    align-items: normal;
-    list-style: none;
-    text-align: left;
-    padding: 100px;
-           
 }
-
+#main-container .main-container-list h4{
+    color: #f1e5d3;
+}
+#footer{
+    background-color: #552020;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+#footer .footer-list  img{
+   width: 150px;
+}
+#footer .footer-list p{
+    color: #dbb47a;
+    padding: 10px 0px;
+}
+#footer .footer-list h3{
+    color: #dbb47a;
+    margin-bottom: 10px;
+}
+#footer .footer-list a{
+    color: #8b7c64;
+    text-decoration: none;
+}
+#footer .footer-list a:hover{
+    text-decoration: underline;
+}
+#footer .footer-list ul{
+    list-style: none;
+}
+#footer .footer-list ul li{
+    margin-bottom: 8px;
+}
+.search-wrapper{
+    width: 315px;
+    position: relative;
+}
+.search-wrapper input{
+    height: 31px;
+    padding: 5px 5px;
+    width: 150px;
+}
+.search-wrapper button{
+    background-color: #8b7c64;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    padding: 7px 15px;
+    position: absolute;
+    z-index: 2;
+    transform: translateX(-1px);
+    cursor: pointer;
+} 
+#copyright-footer{
+    text-align: center;
+    background-color: #552020;
+    color: #dbb47a;
+    padding: 10px 0px;
+}
+/* About */
+.about {
+    color: #552020;
+    background-color: #f7d0a5;
+    text-align: left;
+    padding: 100px;      
+}
 p {
     margin-top: 30px;
     line-height: 1.5;
 }
-
-.About p a {
+.about p a {
     text-decoration: none;
     color: #4e0505;
-    
 }
-
-.About p a:hover {
+.about p a:hover {
     text-decoration: none;
     color: #4e0505;
     background-color: #dfdacb;
 }
-
 /* Investment */
+#investment{
+    padding: 50px 50px;
+    background-color: #f7d0a5;
+}
 .Investment {
     color: #552020;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #f7d0a5;
-    padding-bottom: 10px;
-    padding-top: 10px;
     text-align: center;
-    
 }
-
 .Investment p {
     text-align: center;
-    width: 1050px;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
 }
-p {
-    margin-top: 30px;
-    line-height: 1.5;
-}
-
-/* Portfolio */
-.Portfolio {
-    color: #552020;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-color: #f7d0a5;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-p {
-    margin-top: 30px;
-    line-height: 1.5;
-}
-
-/* photos portfolio */
-
-.gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 2vw;
-    padding: 0 8vw;
-}
-
-
 /* Contact */
-.Contact {
+#contact {
     color: #552020;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
     background-color: #f7d0a5;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    text-align: center;  
+    padding: 20px 20px;
+}
+.container-form{
     padding: 20px;
-        
-}
-
-p {
-    margin-top: 30px;
-    line-height: 1.5;
-}
-
-/* Form */
-
-#form {
-    position: relative;
+    }
+    .container-form h1{
+        text-align: left;
+        margin-bottom: 20px;
+        color: #000000;
+        font-size: 28px;
+    }  
+    .container-form form{
+    margin: 5% 30%;
+    padding: 50px;
     background: #b47171;
-    border-radius: 10px;
-    padding: 15px;
-    width: fit-content;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    
-   
-}
+    border: 1px solid #c6c7cc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 40%;
+    }
+    .container-form form label{
+    color: #000000;
+    display: block;
+    text-align: left;
+    font-size: 16px;
 
-.form {
-    background-color: #f7d0a5;
-}
-.title {
-    font-size: 1.8em;
-    margin-bottom: 10%;
-   
-}
-
-.input {
-    min-width: 500px;
-    border-radius: 22px;
-    border: 2px #691c1c solid;
-    padding: 5px;
-    margin: 0px 0px 12px -5px;
-    
-    
-}
-
-.input input {
-    width: 70%;
-    border: none;
-    outline: none;
-    transform: translate(15%);
-    color: #4e0505;
-    font-size: 11pt;
-    
-}
-
-#btn {
-    margin-top: 10%;
+    }
+    .container-form form input{
     width: 100%;
-    text-align: center;
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: #636466;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    } 
+    .container-form form button{
+        background: #4e0505;
+        color: #ffffff;
+        width: 100%;
+        height: 40px;
+        border: none;
+        font-size: 1.2em;
+        border-radius: 20px;
+        outline: none;
+        cursor: pointer;
+    }
+    /*Gallery */
+    #gallery {
+        background-color: #f7d0a5;
+    }
+    #gallery h1{
+        text-align: center;
+        padding: 20px 0px;
+        color: #552020;
+    }
+    #gallery .gallery-container{
+        display: flex;
+        justify-content: center;
+        max-width: 1200px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #gallery .gallery-container img{
+        width: 370px;
+        height: 250px;
+        object-fit: cover;
+        object-position: center;
+        padding: 5px;
+    }
+@media(max-width:799px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #552020;
+        box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0px 0px 10px;
+        transition: 0.6s;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+    }
+    #mobile i{
+        color: #fff;
+        font-size: 24px;
+        padding-left:300px ;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #fff;
+        font-size: 24px;
+    }
+    .socials-responsive{
+        display: flex;
+    }
+    .socials-responsive button {
+        width: 40px;
+        height: 35px;
+        display: inline;
+    }
+    .socials-responsive button i{
+        font-size: 20px;
+    }
+    .socials-responsive{
+        display: flex;
+    }
+    .socials-responsive button {
+        width: 40px;
+        height: 35px;
+        display: inline;
+    }
+    .socials-responsive button i{
+        font-size: 20px;
+    }
+    .socials{
+        display: none;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px 50px;
+    }
+    .about{
+        padding: 40px;
+    }
+    #investment{
+        padding: 40px 40px;
+    }
+    .container-form form{
+        margin: 5% 10%;
+        padding: 20px;
+        width: 80%;
+        }
 }
-
-#btn button {
-    font-family: "roboto", sans-serif;
-    background: #4e0505;
-    color: #ffffff;
-    width: 100%;
-    height: 40px;
-    border: none;
-    font-size: 1.2em;
-    border-radius: 20px;
-    outline: none;
-    cursor: pointer;
-    
+@media(max-width:589px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 250px;
+        background-color: #552020;
+        box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0px 0px 10px;
+        transition: 0.6s;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+    }
+    #mobile i{
+        color: #fff;
+        font-size: 24px;
+        padding-left:240px ;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #fff;
+        font-size: 24px;
+    }
+    .socials-responsive{
+        display: flex;
+    }
+    .socials-responsive button {
+        width: 40px;
+        height: 35px;
+        display: inline;
+    }
+    .socials-responsive button i{
+        font-size: 20px;
+    }
+    .socials{
+        display: none;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px 50px;
+    }
+    .about{
+        padding: 30px;
+    }
+    #investment{
+        padding: 30px 30px;
+    }
+    .container-form form{
+        margin: 5% 10%;
+        padding: 20px;
+        width: 80%;
+        }
 }
-
-/* Footer */
-
-
-footer {
-    width: 100%;
-    color: #dbb47a;
-    padding-top: 0px;
+@media(max-width:489px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 200px;
+        background-color: #552020;
+        box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0px 0px 10px;
+        transition: 0.6s;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+    }
+    #mobile i{
+        color: #fff;
+        font-size: 24px;
+        padding-left:180px ;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #fff;
+        font-size: 24px;
+    }
+    .socials-responsive{
+        display: flex;
+    }
+    .socials-responsive button {
+        width: 40px;
+        height: 35px;
+        display: inline;
+    }
+    .socials-responsive button i{
+        font-size: 20px;
+    }
+    .socials{
+        display: none;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px 50px;
+    }
+    .about{
+        padding: 20px;
+    }
+    #investment{
+      padding: 20px 20px;
+    }
+    .container-form form{
+        margin: 5% 10%;
+        padding: 20px;
+        width: 80%;
+        }
 }
-.footer-link {
-    text-decoration: none;
-}
-#footer_content {
-    background-color: #552020;
-    display: grid;
-    grid-template-columns: repeat(4);
-    padding: 3rem 3.5rem;
-}
-
-#footer_contacts {
-    margin-bottom: 0.75rem;
-}  
-
-.logo {
-    width: 100%;
-    padding-left: 10px;
-    
-}
-
-.footer-list {
-    padding-top: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    list-style: none;
-}
-
-.footer-list .footer-link {
-    color: #8b7c64;
-}
-
-.footer-subscribe {
-    width: 50px;
-    padding-top: 30px;
-}
-#footer-subscribe {
-    padding-top: 15px;
-}
-
-#input_group {
-    display: flex;
-    align-items: center;
-    border-radius: 4px:
-}
-
-#input_group button {
-    background-color: #8b7c64;
-    border: none;
-    color: #ffffff;
-    padding: 0px 1.25rem;
-    font-size: 1.125rem;
-    height: 100%;
-    border-radius: 0px 4px 4px 0px;
-    cursor: pointer;
-}
-
-#footer_copyright {
-    display: flex;
-    justify-content: center;
-    background-color: #552020;
+@media(max-width:389px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 200px;
+        background-color: #552020;
+        box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0px 0px 10px;
+        transition: 0.6s;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+    }
+    #mobile i{
+        color: #fff;
+        font-size: 24px;
+        padding-left:100px ;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #fff;
+        font-size: 24px;
+    }
+    .socials-responsive{
+        display: flex;
+    }
+    .socials-responsive button {
+        width: 40px;
+        height: 35px;
+        display: inline;
+    }
+    .socials-responsive button i{
+        font-size: 20px;
+    }
+    .socials{
+        display: none;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px 50px;
+    }
+    .about{
+        padding: 20px;
+    }
+    #investment{
+        padding: 20px 20px;
+    }
+    .container-form form{
+        margin: 5% 0%;
+        padding: 20px;
+        width: 100%;
+        }
 }

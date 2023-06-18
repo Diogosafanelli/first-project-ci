@@ -1,137 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://kit.fontawesome.com/da27b6a8dd.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1 HTML/CSS Essentials about me</title>
-    <link rel="stylesheet" href="css/style.css">
-
-     <!-- Google fonts -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
- 
-     <!-- Images carrossel -->
-     
-    <!-- Images carrossel -->
-    
-   
-       
-    
+    <title>Document</title>
+    <!--External CSS-->
+    <link rel="stylesheet" href="/css/first.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 </head>
 <body>
-
-    <header>
-        <div class="container">
-            <div class="logo"><img src="img/LOGO.png" alt="logo"></div>
-            <div class="menu">
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="indexaboutme.html">About me</a>
-                    <a href="indexinvestment.html">Investment</a>
-                    <a href="indexportfolio.html">Portfolio</a>
-                    <a href="indexcontact.html">Contact</a>
-                 </nav>
-            </div>
-            <div class="socials">
-                <button><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></button>
-                <button><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></button>
-                <button><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></button>
-
+    <section id="header">
+        <img src="/img/LOGO.png" alt="">
+        <div>
+            <ul id="navbar">
+                <li><a href="/index.html">Home</a></li>
+                <li><a class="active"  href="/pages/about.html">About Me</a></li>
+                <li><a href="/pages/investment.html">Investment</a></li>
+                <li><a href="/pages/portfolio.html">Portfolio</a></li>
+                <li><a href="/pages/contact.html">Contact</a></li>
+                <li class="socials-responsive">
+                    <button onClick="
+                    parent.location='https://www.instagram.com/'" ><i class="fab fa-instagram"></i></button>
+                    <button onClick="
+                    parent.location='https://www.facebook.com/'"><i class="fab fa-facebook"></i></button>
+                    <button onClick="
+                    parent.location='https://www.youtube.com/'" ><i class="fab fa-youtube"></i></button>
+                </li>
+                <li><a href="#" id="close"><i class="fas fa-times"></i></a></li>
+            </ul>
         </div>
-    </header>
-
-    <!--About me  -->
-
-    <div class="About">
-        <p>
-
-
-
-
-
-        </p>
-        <h1>Meet Diogo</h1>
-        <h4>If our first meeting was through my instagram then surely you've already seen my face, my weird laugh and a bit of my personality so... welcome, I'm very proud to have you here.
-            if you want to see some pictures that are different from the usual, go to my pages on instagram and take a look at my work</h4>
-            
-            <p>
-            <a href="https://instagram.com/safanelliphotography?igshid=ZDdkNTZiNTM=" target="blank">@safanelliphotography</a>
-            <a href="https://instagram.com/zoominmoments10?igshid=ZDdkNTZiNTM=" target="blank">@zooninmoments</a>
-            <a href="https://instagram.com/safanellidiogo?igshid=NzMyMjgxZWIzNw==" target="blank">@safanelliphotographer</a>
-            </p>
-            
-
-            <p>
-            I'm Diogo, 34 years old, the face hiding behind the cameras that will get you excited during our work together (and very likely even more excited throughout your instagram posts)
-            I came from Curitiba Brazil, to Ireland to explore my photographic side. With over 7 years of experience in landscape, portrait and lifestyle photography, I founded Safanelli Photography.
-            I will be happy to bring out the photogenic side of everyone with a laid-back side.</p>
-            
-            
-            <p>You were there a little discouraged and thinking that you wouldn't do anything very important today,
-            go to your wardrobe, put on a cool outfit, come to Dublin because I'm here waiting for you to change the mood of this day and make history.</p>
-            
-            <p>I'm in love with my Marketer and Advertiser (she's the one who makes all this happen, believe me), dad of Aurnia, a beautiful Irish Golden retriever lady from Cork, crazy enough to pack my bags go anywhere and record unforgettable moments.</p>
-            
-            <p>That's just a little bit about Diogo Safanelli, your favorite photographer from now on!</p>
-
-        </p>
-    </div>
-    
-    <footer>
-        <div id="footer_content">
-            <div id="footer_contacts">
-                <div class="logo"><img src="img/LOGO_SIGLA_CIRCULO_COMPLETO.png" alt="logo2"></div>
-                <p>It's all about moments</p>
-              
-                <ul class="footer-list"> 
-                    <li>
-                        <h3>Blog</h3>
-                    </li>
-                    <li>
-                        <a href="" class="footer-link">Tech</a>
-                    </li>
-                    <li>
-                        <a href="" class="footer-link">Adventure</a>
-                    </li>
-                    <li>
-                        <a href="" class="footer-link">Music</a>
-                    </li>
-                </ul>
-                <ul class="footer-list">
-                    <li>
-                        <h3>Products</h3>
-                    </li>
-                    <li>
-                        <a href="" class="footer-link">App</a>
-                    </li>
-                    <li>
-                        <a href="" class="footer-link">Desktop</a>
-                    </li>
-                    <li>
-                        <a href="" class="footer-link">Cloud</a>
-                    </li>
-                </ul>
-                <div id="footer-subscribe">
-                    <h3>Subscribe</h3>
-                    <p>
-                        Enter your e-mail to get notified about my travels
-                    </p>
-                    <div id="input_group">
-                        <input type="email" id="email">
-                        <button>
-                            <i class="fa-solid fa-envelope"></i>
-                        </button>
-                    </div>
-                </div>            
-            </div>
+        <div class="socials">
+            <button onClick="
+            parent.location='https://www.instagram.com/'" 
+            ><i class="fab fa-instagram"></i></button>
+            <button onClick="
+            parent.location='https://www.facebook.com/'" 
+            ><i class="fab fa-facebook"></i></button>
+            <button onClick="
+            parent.location='https://www.youtube.com/'" 
+            ><i class="fab fa-youtube"></i></button>
         </div>
-        <div id="footer_copyright">
-            &#169
-            2023 ALL RIGHTS RESERVED
+        <div id="mobile">
+           <i id="bar" class="fas fa-bars"></i>
         </div>
-      </footer>
+    </section>
+    <section id="about">
+        <div class="about">
+            <h1>Meet Diogo</h1>
+            <h4>If our first meeting was through my instagram then surely you've already seen my face, my weird laugh and a bit of my personality so... welcome, I'm very proud to have you here.
+                if you want to see some pictures that are different from the usual, go to my pages on instagram and take a look at my work</h4>
+                <p>
+                <a href="https://instagram.com/safanelliphotography?igshid=ZDdkNTZiNTM=" target="blank">@safanelliphotography</a>
+                <a href="https://instagram.com/zoominmoments10?igshid=ZDdkNTZiNTM=" target="blank">@zooninmoments</a>
+                <a href="https://instagram.com/safanellidiogo?igshid=NzMyMjgxZWIzNw==" target="blank">@safanelliphotographer</a>
+                </p>
+                <p>
+                I'm Diogo, 34 years old, the face hiding behind the cameras that will get you excited during our work together (and very likely even more excited throughout your instagram posts)
+                I came from Curitiba Brazil, to Ireland to explore my photographic side. With over 7 years of experience in landscape, portrait and lifestyle photography, I founded Safanelli Photography.
+                I will be happy to bring out the photogenic side of everyone with a laid-back side.</p>
+                <p>
+                    You were there a little discouraged and thinking that you wouldn't do anything very important today,
+                go to your wardrobe, put on a cool outfit, come to Dublin because I'm here waiting for you to change the mood of this day and make history.</p>
+                <p>
+                    I'm in love with my Marketer and Advertiser (she's the one who makes all this happen, believe me), dad of Aurnia, a beautiful Irish Golden retriever lady from Cork, crazy enough to pack my bags go anywhere and record unforgettable moments.
+                </p>
+                <p>That's just a little bit about Diogo Safanelli, your favorite photographer from now on!</p>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer-list logo">
+            <img src="/img/LOGO_SIGLA_CIRCULO_COMPLETO.png" alt="logo2">
+            <p>It's all about moments</p>
+        </div>
+        <div class="footer-list"> 
+         <ul>
+            <li><h3>Blog</h3></li>
+            <li><a href="#" class="footer-link">Tech</a></li>
+            <li><a href="#" class="footer-link">Adventure</a></li>
+            <li><a href="#" class="footer-link">Music</a></li>
+         </ul>
+        </div>
+        <div class="footer-list">
+            <ul>
+            <li><h3>Products</h3></li>
+            <li><a href="#" class="footer-link">App</a></li>
+            <li><a href="#" class="footer-link">Desktop</a></li>
+            <li><a href="#" class="footer-link">Cloud</a></li>
+            </ul>
+        </div>
+        <div class="footer-list">
+            <h3>Subscribe</h3>
+            <p>Enter your e-mail to get notified about my travels</p>
+            <form class="search-wrapper cf">
+                <input type="text" placeholder="Enter your email..." required>
+                <button type="submit"> <i class="fas fa-envelope"></i> </button>
+            </form>
+        </div>
+    </section>
+    <section id="copyright-footer">
+            <p>  Ⓒ
+                2023 ALL RIGHTS RESERVED</p>
+    </section>
+    <script src="/script.js"></script>
 </body>
 </html>
