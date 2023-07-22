@@ -10,6 +10,7 @@
 
  - Here is the link to the final project > [Safanelli Photographer](https://diogosafanelli.github.io/first-project-ci/)
 
+<img width="1216" alt="Screenshot 2023-07-22 at 23 17 46" src="https://github.com/Diogosafanelli/first-project-ci/assets/131887685/14b006a5-2a36-401b-95a3-47ca94a4d8ec">
  
  <img src="img/readme.png" alt="">
 
