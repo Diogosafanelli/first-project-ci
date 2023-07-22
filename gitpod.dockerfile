@@ -98,4 +98,3 @@ ENV IP="0.0.0.0"
 ENV C9_HOSTNAME="localhost"
 # Despite the scary name, this is just to allow React and DRF to run together on Gitpod
 ENV DANGEROUSLY_DISABLE_HOST_CHECK=true
-
