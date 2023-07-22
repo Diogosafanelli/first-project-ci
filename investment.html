@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--External CSS-->
-    <link rel="stylesheet" href="/css/first.css">
+    <link rel="stylesheet" href="first.css">
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,11 +18,11 @@
         <img src="/img/LOGO.png" alt="">
         <div>
             <ul id="navbar">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/pages/about.html">About Me</a></li>
-                <li><a class="active"  href="/pages/investment.html">Investment</a></li>
-                <li><a href="/pages/portfolio.html">Portfolio</a></li>
-                <li><a href="/pages/contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a class="active"  href="investment.html">Investment</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li class="socials-responsive">
                     <button onClick="
                     parent.location='https://www.instagram.com/'" ><i class="fab fa-instagram"></i></button>
@@ -37,16 +37,12 @@
 
             </ul>
         </div>
-        <div class="socials">
-            <button onClick="
-            parent.location='https://www.instagram.com/'" 
-            ><i class="fab fa-instagram"></i></button>
-            <button onClick="
-            parent.location='https://www.facebook.com/'" 
-            ><i class="fab fa-facebook"></i></button>
-            <button onClick="
-            parent.location='https://www.youtube.com/'" 
-            ><i class="fab fa-youtube"></i></button>
+        <div class="socials ">
+            <button onClick="window.open('https://www.instagram.com/', '_blank')">
+                <i class="fab fa-instagram"></i></button>
+            <button onClick="window.open('https://www.facebook.com/', '_blank')"><i
+                    class="fab fa-facebook"></i></button>
+            <button onClick="window.open('https://www.youtube.com/', '_blank')"><i class="fab fa-youtube"></i></button>
         </div>
         <div id="mobile">
            <i id="bar" class="fas fa-bars"></i>
